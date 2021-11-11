@@ -51,5 +51,15 @@
     </div>
     <script src="script.js"></script>
     <script src="api.js"></script>
+    <script src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".wrapper")),{
+            max: 25,
+            speed: 300,
+            glare: true,
+            'max-glare': 0.5,
+            gyroscope: true 
+        }
+    </script>
 </body>
 </html>
